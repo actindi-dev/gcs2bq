@@ -5,7 +5,7 @@ const config = require('./config.json');
 const BigQuery = require('@google-cloud/bigquery');
 const Storage = require('@google-cloud/storage');
 
-exports.main = (event) => {
+exports.function = (event) => {
   const file = event.data;
 
   const bucketName = file.bucket;
