@@ -1,0 +1,12 @@
+{
+  "name": "gcs2bq",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "nomnel",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/bigquery": "1.2.0",
+    "@google-cloud/storage": "1.6.0"
+  }
+}
