@@ -13,4 +13,5 @@
 .git
 .gitignore
 
+config.json.example
 node_modules
