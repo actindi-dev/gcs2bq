@@ -6,7 +6,7 @@ const BigQuery = require('@google-cloud/bigquery');
 const Storage = require('@google-cloud/storage');
 
 exports.function = (event) => {
-  const file = event.data;
+  const file = event;
 
   const bucketName = file.bucket;
   const filename = file.name;
